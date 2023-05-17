@@ -12,6 +12,8 @@
         - Consultation de la première donnée ajoutée et non supprimée depuis (donc la plus ancienne) s’il y en a une.
         - Suppression de la première donnée ajoutée et non encore supprimée depuis, s’il y en a une.
 
+   Pour créer une file il suffit de mettre les pointeurs qui la représente à NULL. Elle est vide.
+
     Une file doit répondre au critère suivant :
         "Premier entré, premier sorti" :
             First In First Out (FIFO

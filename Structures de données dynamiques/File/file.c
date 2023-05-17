@@ -1,5 +1,9 @@
 #include "file.h"
 
+/***********************************************************************************************************************
+    Voir file.h pour la documentation
+***********************************************************************************************************************/
+
 int file_enfiler(Node **tete_ptr, Node **queue_ptr, Node *element)
 {
     Node *new = NULL; // pointeur vers le nouvel élément
