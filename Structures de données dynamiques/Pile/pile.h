@@ -12,6 +12,8 @@
         - Consultation de la dernière donnée ajoutée et non supprimée depuis (donc la plus récente), s’il y en a une.
         - Suppression de la dernière donnée ajoutée et non encore supprimée, s’il y en a une.
 
+    Pour créer une pile il suffit de mettre le pointeur qui la représente à NULL. Elle est vide.
+
     Une pile doit répondre au critère suivant :
         "Dernier entré, premier sorti" :
             Last In First Out (LIFO)
