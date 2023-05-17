@@ -16,7 +16,8 @@ int pile_empiler(Node **pile_ptr, Node *element)
         return 0;   // Retourne 0 si la mémoire n'a pas été allouée
 
     // Copie les données de l'élément à empiler dans le nouvel élément
-    new = element;
+    strcpy(new->nom, element->nom);
+    new->age = element->age;
 
     // Fait pointer le nouvel élément vers l'ancien sommet de la pile
     new->next = *pile_ptr;
