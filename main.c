@@ -35,7 +35,7 @@
 
 int main()
 {
-    int tab[TAILLE_TAB];
+    int tab[TAILLE_TAB]; // la taille du tableau est définie dans le fichier "data.h" et elle vaut 50
 
     srand(time(NULL));
 

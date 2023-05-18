@@ -7,7 +7,7 @@
 #include <time.h>
 #include "Algorithmes de tri\Heapsort\algo_tri_heapsort.h"
 
-#define TAILLE_TAB 50
+#define TAILLE_TAB 50 // taille du tableau d'entiers
 
 /*
     Ceci est une simple structure représentant un élément d'une pile, file ou liste linéaire.
@@ -38,8 +38,26 @@ typedef struct Node
     struct Node *next;
 } Node;
 
+
+/**********************************************************************************************************************
+    INPUT:
+        - node: élément à afficher
+    PROCESS:
+        affiche un élément de la structure de données
+    OUTPUT:
+        aucun
+***********************************************************************************************************************/
 void afficher_node(Node *node);
 
+/**********************************************************************************************************************
+    INPUT:
+        - tab: tableau à afficher
+        - taille: taille du tableau
+    PROCESS:
+        affiche un tableau d'entiers
+    OUTPUT:
+        aucun
+***********************************************************************************************************************/
 void afficher_tab(int tab[], int taille);
 
 #endif //ALGORITHMIQUE_DATA_H
