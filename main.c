@@ -37,10 +37,10 @@ int main()
 {
     int tab[TAILLE_TAB]; // la taille du tableau est définie dans le fichier "data.h" et elle vaut 50
 
-    srand(time(NULL));
+    srand(time(NULL)); // NOLINT(cert-msc51-cpp)
 
     for (int i = 0; i < TAILLE_TAB; i++)
-        tab[i] = rand() % 99 + 1;
+        tab[i] = rand() % 99 + 1; // NOLINT(cert-msc50-cpp)
 
     afficher_tab(tab, TAILLE_TAB);
 
