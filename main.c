@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include "data.h"
 /*
     La structure de données utilisée se trouve dans le fichier "data.h".
     Il s'agit de la structure suivante :
@@ -36,6 +35,36 @@
 
 int main()
 {
-    printf("Hello, World!\n");
+    int tab[TAILLE_TAB];
+
+    srand(time(NULL));
+
+    for (int i = 0; i < TAILLE_TAB; i++)
+        tab[i] = rand() % 99 + 1;
+
+    afficher_tab(tab, TAILLE_TAB);
+
+    algo_tri_heap_tri_epi(tab, TAILLE_TAB);
+
+    afficher_tab(tab, TAILLE_TAB);
+
     return 0;
 }
+
+void afficher_node(Node *node)
+{
+    printf("Nom: %s\n", node->nom);
+    printf("Age: %d\n\n", node->age);
+}
+
+void afficher_tab(int *tab, int taille)
+{
+    printf("Tableau: ");
+    for (int i = 0; i < taille; i++)
+        printf("[%2d]", tab[i]);
+    printf("\nIndice:  ");
+    for (int i = 0; i < taille; i++)
+        printf("[%2d]", i);
+    printf("\n\n");
+}
+

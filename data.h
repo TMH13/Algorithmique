@@ -4,6 +4,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
+#include "Algorithmes de tri\Heapsort\algo_tri_heapsort.h"
+
+#define TAILLE_TAB 50
 
 /*
     Ceci est une simple structure représentant un élément d'une pile, file ou liste linéaire.
@@ -33,5 +37,9 @@ typedef struct Node
     int age;
     struct Node *next;
 } Node;
+
+void afficher_node(Node *node);
+
+void afficher_tab(int tab[], int taille);
 
 #endif //ALGORITHMIQUE_DATA_H
