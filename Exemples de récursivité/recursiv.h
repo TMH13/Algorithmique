@@ -1,8 +1,0 @@
-//
-// Created by TMH on 17/05/2023.
-//
-
-#ifndef ALGORITHMIQUE_RECURSIV_H
-#define ALGORITHMIQUE_RECURSIV_H
-
-#endif //ALGORITHMIQUE_RECURSIV_H
