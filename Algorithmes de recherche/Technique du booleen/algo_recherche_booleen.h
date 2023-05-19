@@ -1,5 +1,5 @@
-#ifndef ALGORITHMIQUE_ALGO_RECHERCHE_BOUCLE_H
-#define ALGORITHMIQUE_ALGO_RECHERCHE_BOUCLE_H
+#ifndef ALGORITHMIQUE_ALGO_RECHERCHE_BOOLEEN_H
+#define ALGORITHMIQUE_ALGO_RECHERCHE_BOOLEEN_H
 
 /***********************************************************************************************************************
     INPUT:
@@ -12,7 +12,7 @@
         -  1: si la valeur est trouvée
         - -1: si la valeur n'est pas trouvée
  ***********************************************************************************************************************/
-int recherche_non_triee_boucle(const int tab[], int taille_tab, int cible);
+int algo_recherche_non_triee_booleen(const int tab[], int taille_tab, int cible);
 
 /***********************************************************************************************************************
     INPUT:
@@ -26,6 +26,6 @@ int recherche_non_triee_boucle(const int tab[], int taille_tab, int cible);
         - -1: si la valeur n'est pas trouvée
  ***********************************************************************************************************************/
 
-int recherche_triee_boucle(const int tab[], int taille_tab, int cible);
+int algo_recherche_triee_booleen(const int tab[], int taille_tab, int cible);
 
-#endif //ALGORITHMIQUE_ALGO_RECHERCHE_BOUCLE_H
+#endif //ALGORITHMIQUE_ALGO_RECHERCHE_BOOLEEN_H

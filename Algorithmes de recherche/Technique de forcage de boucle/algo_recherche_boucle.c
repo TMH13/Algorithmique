@@ -12,7 +12,7 @@
     La description des fonctions se trouve dans le fichier d'en-tête algo_recherche_boucle.h
 ***********************************************************************************************************************/
 
-int recherche_non_triee_boucle(const int tab[], int taille_tab, int cible)
+int algo_recherche_non_triee_boucle(const int tab[], int taille_tab, int cible)
 {
     int i = 0, position = -1;
 
@@ -30,7 +30,7 @@ int recherche_non_triee_boucle(const int tab[], int taille_tab, int cible)
     return position;
 }
 
-int recherche_triee_boucle(const int tab[], int taille_tab, int cible)
+int algo_recherche_triee_boucle(const int tab[], int taille_tab, int cible)
 {
     int i = 0, position = -1;
 
