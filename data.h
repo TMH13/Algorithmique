@@ -5,7 +5,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-#include "Algorithmes de tri\Heapsort\algo_tri_heapsort.h"
+
+
 
 #define TAILLE_TAB 50 // taille du tableau d'entiers
 
@@ -60,4 +61,15 @@ void afficher_node(Node *node);
 ***********************************************************************************************************************/
 void afficher_tab(int tab[], int taille);
 
+
+/**********************************************************************************************************************
+    INPUT:
+        - position: position de l'élément recherché dans le tableau initialisée à -1
+        - cible: élément recherché
+    PROCESS:
+        affiche le résultat d'une recherche dans un tableau d'entiers
+    OUTPUT:
+        aucun
+***********************************************************************************************************************/
+void affiche_resultat_recherche(int position, int cible);
 #endif //ALGORITHMIQUE_DATA_H
