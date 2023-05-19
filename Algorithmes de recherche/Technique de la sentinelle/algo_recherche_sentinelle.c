@@ -21,7 +21,7 @@
     La description des fonctions se trouve dans le fichier d'en-tête algo_recherche_classique.h
 ***********************************************************************************************************************/
 
-int recherche_non_triee_sentinelle(int tab[], int taille_tab, int cible)
+int algo_recherche_non_triee_sentinelle(int tab[], int taille_tab, int cible)
 {
     int i = 0, position = -1;
 

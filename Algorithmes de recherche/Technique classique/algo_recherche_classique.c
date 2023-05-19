@@ -13,7 +13,7 @@
     La description des fonctions se trouve dans le fichier d'en-tête algo_recherche_classique.h
 ***********************************************************************************************************************/
 
-int recherche_non_triee_classique(const int tab[], int taille_tab, int cible)
+int algo_recherche_non_triee_classique(const int tab[], int taille_tab, int cible)
 {
     int i = 0, position = -1;
 
@@ -27,7 +27,7 @@ int recherche_non_triee_classique(const int tab[], int taille_tab, int cible)
     return position; // retourne la position de l'élément trouvé ou -1
 }
 
-int recherche_triee_classique(const int tab[], int taille_tab, int cible)
+int algo_recherche_triee_classique(const int tab[], int taille_tab, int cible)
 {
     int i = 0, position = -1;
 

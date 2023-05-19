@@ -49,7 +49,7 @@
             de celle-ci.
 ***********************************************************************************************************************/
 
-int recherche_triee_dicho(const int tab[], int taille, int cible)
+int algo_recherche_triee_dicho(const int tab[], int taille, int cible)
 {
     int inf = 0, sup = taille - 1, m, position = -1;
 

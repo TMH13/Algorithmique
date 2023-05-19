@@ -13,6 +13,6 @@
         - -1 si l'élément n'est pas trouvé
 ***********************************************************************************************************************/
 
-int recherche_triee_dicho(const int tab[], int taille, int cible);
+int algo_recherche_triee_dicho(const int tab[], int taille, int cible);
 
 #endif //ALGORITHMIQUE_ALGO_RECHERCHE_DICHO_H

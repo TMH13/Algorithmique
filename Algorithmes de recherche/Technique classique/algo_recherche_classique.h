@@ -12,7 +12,7 @@
         -  1: si la valeur est trouvée
         - -1: si la valeur n'est pas trouvée
  ***********************************************************************************************************************/
-int recherche_non_triee_classique(const int tab[], int taille_tab, int cible);
+int algo_recherche_non_triee_classique(const int tab[], int taille_tab, int cible);
 
 /***********************************************************************************************************************
     INPUT:
@@ -25,6 +25,6 @@ int recherche_non_triee_classique(const int tab[], int taille_tab, int cible);
         -  1: si la valeur est trouvée
         - -1: si la valeur n'est pas trouvée
  ***********************************************************************************************************************/
-int recherche_triee_classique(const int tab[], int taille_tab, int cible);
+int algo_recherche_triee_classique(const int tab[], int taille_tab, int cible);
 
 #endif //ALGORITHMIQUE_ALGO_RECHERCHE_CLASSIQUE_H
