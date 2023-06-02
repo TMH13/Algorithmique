@@ -48,6 +48,7 @@ int pile_est_vide(Node *pile);
         - Retourne l'élément au sommet de la pile.
     OUTPUT :
         - un pointeur sur un élément de type "Node" qui représente l'élément au sommet de la pile.
+        - NULL si la pile est vide
 *********************************************************************************************************************/
 Node *pile_sommet_pile(Node *pile);
 

@@ -35,10 +35,7 @@ int pile_est_vide(Node *pile)
 
 Node *pile_sommet_pile(Node *pile)
 {
-    if(pile_est_vide(pile)) // si la pile est vide
-        return NULL;
-
-    return pile; // Retourne l'élément au sommet de la pile
+    return pile; // Retourne l'élément au sommet de la pile, NULL si la pile est vide
 }
 
 Node *pile_depiler(Node **pile_ptr)
