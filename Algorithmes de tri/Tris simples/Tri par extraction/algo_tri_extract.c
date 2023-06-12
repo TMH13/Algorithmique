@@ -11,7 +11,7 @@ void algo_tri_extract(int tab[], int taille_tab)
 
         for (i = 1; i <= j; i++)
         {
-            if (tab[i] > max) // si l'élément courant est supérieur au maximum
+            if (tab[i] > max) // si l'élément actuel est supérieur au maximum
             {
                 max = tab[i]; // on met à jour le maximum
                 indice_max = i;
